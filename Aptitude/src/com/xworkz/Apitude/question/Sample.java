@@ -3,7 +3,7 @@ package com.xworkz.Apitude.question;
 public class Sample {
 	public static void main(String[]args) {
 		int count=0;
-		int num=200;
+		int num=10;
 		int temp=num;
 		while(num!=0)
 		{
