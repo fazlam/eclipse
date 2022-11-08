@@ -1,6 +1,6 @@
 package com.xworkz.Association.Runner;
 
-import com.xworkz.Association.inheritance.Bengaluru;
+import com.xworkz.Association.inheritance.*;
 import com.xworkz.Association.inheritance.Capital;
 import com.xworkz.Association.inheritance.City;
 import com.xworkz.Association.inheritance.MetroCity;
@@ -17,7 +17,7 @@ public class BengaluruRunner {
 		City city = new Bengaluru();
 		Capital capital =new Bengaluru();
 		Place place = new Bengaluru();
-		Object object = new Bengaluru();
+		
 
 	}
 
