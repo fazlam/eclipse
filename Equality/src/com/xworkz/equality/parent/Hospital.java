@@ -11,7 +11,7 @@ public class Hospital {
 	private int noOfPaseint;
 	private String medicalStroreName;
 	private boolean icu;
-	
+
 	public Hospital(String name, String place, String location, String doctoreName, String spacilest, int noOfBeds,
 			int nodoctores, int noOfPaseint, String medicalStroreName, boolean icu) {
 		super();
@@ -113,16 +113,15 @@ public class Hospital {
 	public void setIcu(boolean icu) {
 		this.icu = icu;
 	}
-	
+
 	public boolean equals(Object other) {
-		System.out.println("running the equals method in WaterBottel..");
-		if(other instanceof Hospital) {
-			System.out.println("other is WaterBottel chuck the propeties");
-			Hospital casted = (Hospital)other;
-			if(this.name.equals(casted.name )
-			 && this.place.equals(casted.place)&& this.location.equals(casted.location)&&this.doctoreName.equals(casted.doctoreName)
-			 && this.spacilest.equals(casted.spacilest));
-			{
+		System.out.println("running the equals method in Hospital..");
+		if (other instanceof Hospital) {
+			System.out.println("other is Hospital chuck the propeties");
+			Hospital casted = (Hospital) other;
+			if (this.name.equals(casted.name) && this.place.equals(casted.place)
+					&& this.location.equals(casted.location) && this.doctoreName.equals(casted.doctoreName)
+					&& this.spacilest.equals(casted.spacilest)) {
 				System.out.println("name is same");
 				System.out.println("place is same");
 				System.out.println("location is same");
@@ -130,15 +129,12 @@ public class Hospital {
 				System.out.println("spacilest is same");
 				return true;
 			}
-		}else {
-			System.err.println("other is not WaterBottel,cennot check the propeties");
+		} else {
+			System.err.println("other is not Hospital,cennot check the propeties");
 		}
-		
+
 		return false;
-		
+
 	}
-	
-	
-	
 
 }
