@@ -21,7 +21,7 @@ public class PizzaDTO extends PizzaAuditDTO {
 	
 	
 	public PizzaDTO(String name, String company, PizzaSize size, boolean cheese, double price, String flavour,
-			String type, LocalDateTime updatedDate, String updatedBy) {
+			String type, LocalDateTime updatedDate, String updatedBy,String createdDate,String createdBy) {
 		super();
 		this.name = name;
 		this.company = company;
