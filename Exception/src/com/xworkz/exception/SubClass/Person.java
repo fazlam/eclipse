@@ -41,6 +41,8 @@ public abstract class Person {
 	}
 	public void setWeight(int weight) {
 		this.weight = weight;
+		
 	}
+	
 
 }

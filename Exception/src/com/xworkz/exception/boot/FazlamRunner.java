@@ -26,7 +26,8 @@ public class FazlamRunner {
 		System.out.println("person place is :"+ fazlam.getPlace());
 		System.out.println("person name is :"+ fazlam.getName());
 		System.out.println("person work is :"+ fazlam.isWork());
-
+		
+		
 	}
 
 }

@@ -9,5 +9,6 @@ public class Fazlam extends JavaTrainee implements KaranakaRTO {
 		System.out.println("Running the vat method......");
 		return 0;
 	}
+	
 
 }
