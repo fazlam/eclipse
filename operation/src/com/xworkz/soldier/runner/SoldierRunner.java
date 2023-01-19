@@ -13,6 +13,8 @@ public class SoldierRunner {
 		SoldierDTO dto=new SoldierDTO("Naru",1, "Topper","Xworkz","Indai");
 		SoldierServiceImpl service=new SoldierServiceImpl();
 		SoldierRepoImpl repo=new SoldierRepoImpl();
+		service.SetSoldierRepo(repo);
+		service.validateAndSave(dto);
 		repo.save(dto);
 		
 		
